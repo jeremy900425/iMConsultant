@@ -1,0 +1,616 @@
+{
+    "type": "carousel",
+    "contents": [
+          
+        {
+            "type": "bubble",
+            "header": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [{
+                    "type": "text",
+                    "text": "其他專科",
+                    "weight": "bold",
+                    "size": "lg",
+                    "color": "#ffffff"
+                }],
+                "backgroundColor": "#127436"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "text": "請選擇其他專科：",
+                        "size": "md",
+                        "margin": "md"
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "心血管中心",
+                            "text": "心血管中心"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "婦產科",
+                            "text": "婦產科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "口腔醫學科",
+                            "text": "口腔醫學科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "復健科",
+                            "text": "復健科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "小兒科",
+                            "text": "小兒科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "眼科",
+                            "text": "眼科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "耳鼻喉科",
+                            "text": "耳鼻喉科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "眼科",
+                            "text": "眼科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "家庭暨社區醫學科",
+                            "text": "家庭暨社區醫學科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "核子醫學科",
+                            "text": "核子醫學科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "放射腫瘤科",
+                            "text": "放射腫瘤科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "皮膚科",
+                            "text": "皮膚科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "精神科",
+                            "text": "精神科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "急診醫學部",
+                            "text": "急診醫學部"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "放射線科",
+                            "text": "放射線科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "藥師門診(自費)",
+                            "text": "藥師門診(自費)"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "麻醉科",
+                            "text": "麻醉科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "職業醫學科",
+                            "text": "職業醫學科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "一般醫學科",
+                            "text": "一般醫學科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "病理科",
+                            "text": "病理科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "臨床病理科",
+                            "text": "臨床病理科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "老人醫學科",
+                            "text": "老人醫學科"
+                        }
+                    }
+
+                ]
+
+            }
+          },
+          {
+            "type": "bubble",
+            "header": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [{
+                    "type": "text",
+                    "text": "內科系",
+                    "weight": "bold",
+                    "size": "lg",
+                    "color": "#ffffff"
+                }],
+                "backgroundColor": "#127436"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "text": "請選擇內科系專科：",
+                        "size": "md",
+                        "margin": "md"
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "消化內科",
+                            "text": "消化內科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "神經內科",
+                            "text": "神經內科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "內分泌新陳代謝科",
+                            "text": "內分泌新陳代謝科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "風濕免疫科",
+                            "text": "風濕免疫科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "血液腫瘤科",
+                            "text": "血液腫瘤科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "腎臟內科",
+                            "text": "腎臟內科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "感染科",
+                            "text": "感染科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "呼吸胸腔科",
+                            "text": "呼吸胸腔科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "細胞學科",
+                            "text": "細胞學科"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    }
+                ]
+
+            }
+        },
+        {
+            "type": "bubble",
+            "header": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [{
+                    "type": "text",
+                    "text": "外科系",
+                    "weight": "bold",
+                    "size": "lg",
+                    "color": "#ffffff"
+                }],
+                "backgroundColor": "#127436"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "text": "請選擇外科系專科：",
+                        "size": "md",
+                        "margin": "md"
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "一般外科",
+                            "text": "一般外科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "神經外科",
+                            "text": "神經外科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "骨科",
+                            "text": "骨科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "整型外科",
+                            "text": "整型外科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "大腸直腸內科",
+                            "text": "大腸直腸內科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "泌尿科",
+                            "text": "泌尿科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "外科重症暨外傷科",
+                            "text": "外科重症暨外傷科"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "胸腔外科",
+                            "text": "胸腔外科"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "-",
+                        "data": "-"
+                        }
+                    }
+                ]
+
+            }
+        }
+    ]
+}

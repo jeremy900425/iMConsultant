@@ -1,0 +1,21 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": []
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "請輸入您的年齡（例如：18）",
+        "margin": "xs",
+        "size": "md",
+        "align": "center"
+      }
+    ]
+  }
+}

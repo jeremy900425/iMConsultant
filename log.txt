@@ -1,0 +1,30 @@
+#載入doctor的flex message
+FlexMessage = json.load(open('doctor_data.json','r',encoding='utf-8'))  
+# 使用者輸入科別
+user_input = "風濕免疫科"  # 這個值會根據實際情況而變動
+# 尋找與使用者輸入相符的科別
+doctor_data_GPT=""
+for category in FlexMessage:
+    if category["category_name"] == user_input:
+        # 輸出該科別下的所有醫生名字及專長
+        for doctor in category["doctors"]:
+            doctor_name = doctor["doctor_name"]
+            doctor_expertise = ', '.join(doctor["doctor_expertise"]) 
+            doctor_data_GPT = doctor_data_GPT + f"醫師姓名: {doctor_name}\n" + f"醫師專業: {doctor_expertise}\n\n"
+        print(doctor_data_GPT)
+
+
+
+output:
+醫師姓名: 全以祖
+醫師專業: 風濕疾病診治（類風濕性關節炎、僵直性脊椎炎、痛風）, 過敏免疫疾病診治（紅斑性狼瘡、乾燥症、抗磷脂症候群、血管炎、蕁麻疹及其他過敏症）, 反覆性流產、免疫不孕診治, 風濕免疫學、基礎免疫學與分子生物學研究
+
+醫師姓名: 陳堃宏
+醫師專業: 各種關節炎之診斷及治療，如：類風濕性關節炎、僵直性脊椎炎、乾癬性關節炎、退化性關節炎、痛風…等。, 全身性自體免疫疾病，如：全身性紅斑性狼瘡、乾燥症、硬皮症…等之診斷及治療。, 生物製劑等抗風濕藥物之臨床試驗。
+
+醫師姓名: 林世昌
+醫師專業: 風濕疾病之診治, 過敏免疫疾病之診治, 過敏免疫疾病之檢測, 風濕免疫學研究, 基礎免疫學研究, 流行病學研究, 分子生物學研究
+
+
+
+明天要修正bug：把藥物查詢的程式碼放回去會導致科別查詢的年齡無法輸入 
