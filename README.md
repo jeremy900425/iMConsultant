@@ -1,20 +1,31 @@
-# ChatGPT Line Bot
+# ChatGPT Line Bot-醫療顧問機器人
 
-中文 | [English](README.en.md)
+中文 | 
 
-[![license](https://img.shields.io/pypi/l/ansicolortags.svg)](LICENSE) [![Release](https://img.shields.io/github/v/release/TheExplainthis/ChatGPT-Line-Bot)](https://github.com/TheExplainthis/ChatGPT-Line-Bot/releases/)
-
-
-## 更新
-- 2023/03/23 更新總結 Youtube 影片內容、新聞文章（支援：聯合報、Yahoo 新聞、三立新聞網、中央通訊社、風傳媒、TVBS、自由時報、ETtoday、中時新聞網、Line 新聞、台視新聞網）
-- 2023/03/18 新增 Whipser 服務、用戶可以新增自己的 Token、新增指令（參考文件下方）
-- 2023/03/03 模型換成 chat completion: `gpt-3.5-turbo`
+## 模型
+- `gpt-3.5-turbo`
 
 
 ## 介紹
-在 Line 中去導入 ChatGPT Bot，只要在輸入框直接輸入文字，即可與 ChatGPT 開始互動，除了 ChatGPT 以外，也直接串上了 DALL·E 2 的模型，輸入 `/imagine + 文字`，就會回傳相對應的圖片，如下圖所示：
+將line與GPT-3.5-turbo做串接，透過設計好的Prompt實現「科別查詢」「醫師推薦」「藥物查詢」三大功能，均採用點擊式的輸入方式，讓使用操作簡單化，進而收集Prompt中所需要的資訊，以下說明功能內容
 
-![Demo](https://github.com/TheExplainthis/ChatGPT-Line-Bot/blob/main/demo/chatgpt-line-bot.gif)
+- 科別查詢：取得性別,年齡,症狀,日常習慣,心理狀態,症狀持續時間來推薦使用者可以掛哪一科,其中症狀的部分可以多重輸入。eg.症狀為頭痛,肚子痛 => 推薦「神經內科」
+- 醫師推薦：選擇要掛的科別,並且告知症狀,GPT會透過醫師的專業領域來推薦適合的醫師給使用者
+- 藥物查詢：輸入藥物學名（英文尤佳），即可知道藥物的「藥物名稱」「適應症」「用途」「劑量」「副作用」「外觀」
+
+## LineBot註冊並創建
+1. Google搜尋`Line developers` &rarr; Start Console &rarr; 使用Line帳號登入 &rarr; 點擊Providers旁邊的Create &rarr; 輸入Provider name(類似一個專案名稱而不是LineBot的名字) &rarr; ==Create a Messaging API channel==
+2. Channel開頭的欄位都是LineBot得資料
+    - Channel icon：LineBot的大頭照
+    - Channel name：LineBot顯示的名稱
+    - Channel description：LineBot用途描述
+3. 剩下必填的請按照需求填寫，==URL的可以不必理會==，完成後點擊Create，會進入`LineBot設定頁面`
+
+## LineBot設定頁面需要操作的事情以及功能介紹
+- Basic settings：預覽Icon,查看==Channel secret(請複製起來,稍晚會用到)== 
+- Messaging API：加入好友的QR code,Webhook URL,LINE Official Account features有`Edit`可以跳轉到LineBot後台設定（可設定加入好友之類的預設訊息）,==issue一串Channel access token(請複製起來,稍晚會用到)==
+- Roles：授權LineBot操作設定,透過Email新增管理員
+
 
 ## 安裝步驟
 ### Token 取得
@@ -87,15 +98,3 @@
 | 語音輸入 | 利用語音輸入，系統會自動將語音翻譯成文字，並且 ChatGPT 以文字回應| 
 | 其他文字輸入 | 直接輸入文字，則會進入一般的 ChatGPT 對話模式|
 
-
-## 支持我們
-如果你喜歡這個專案，願意[支持我們](https://www.buymeacoffee.com/explainthis)，可以請我們喝一杯咖啡，這會成為我們繼續前進的動力！
-
-[<a href="https://www.buymeacoffee.com/explainthis" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45px" width="162px" alt="Buy Me A Coffee"></a>](https://www.buymeacoffee.com/explainthis)
-
-## 相關專案
-- [gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant)
-- [ChatGPT-Discord-Bot](https://github.com/TheExplainthis/ChatGPT-Discord-Bot)
-
-## 授權
-[MIT](LICENSE)
