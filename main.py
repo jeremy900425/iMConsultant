@@ -66,7 +66,7 @@ def callback():
 
 # 紀錄使用者的回答
 user_answers = {}
-openai.api_key = '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'
+openai.api_key = 'sk-xxx..'
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
