@@ -19,7 +19,7 @@
     - Channel icon：LineBot的大頭照
     - Channel name：LineBot顯示的名稱
     - Channel description：LineBot用途描述
-3. 剩下必填的請按照需求填寫，==URL的可以不必理會==，完成後點擊Create，會進入`LineBot設定頁面`
+3. 剩下必填的請按照需求填寫，== URL的可以不必理會 ==，完成後點擊Create，會進入`LineBot設定頁面`
 
 ## LineBot設定頁面需要操作的事情以及功能介紹
 - Basic settings：預覽Icon,查看==Channel secret(請複製起來,稍晚會用到)== 
