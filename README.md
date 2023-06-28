@@ -44,14 +44,14 @@
     4. 進入開發環境後，左側應該會看到3個檔案，請將預設的「main.py」刪除
     5. 下載GitHub中的所有檔案(共10個)，將10個檔案拖拉至開發環境中
 2. 設定Secrets
-    1.左側下方會看到Tools，裡面點選一個名為Secrets的工具
+    1.左側下方會看到Tools，裡面點選一個名為`Secrets`的工具
     2.點擊後，畫面會要新增一個New secret，每個secret都會有key和value
     3.接下來需要新增五個secrets，以下輸入key,value
     - **key**=LINE_CHANNEL_ACCESS_TOKEN,**value**=(先前有複製過)
-    - **key**=LINE_CHANNEL_SECRET,**value**=(先前有複製過)
-    - **key**=department,**value**=（請參考Github中的prompt.txt文件）
-    - **key**=doctor_prompt,**value**=（請參考Github中的prompt.txt文件）
-    - **key**=drug,**value**=（請參考Github中的prompt.txt文件）
+    - **key**=LINE_CHANNEL_SECRET,      **value**=(先前有複製過)
+    - **key**=department,               **value**=（請參考Github中的prompt.txt文件）
+    - **key**=doctor_prompt,            **value**=（請參考Github中的prompt.txt文件）
+    - **key**=drug,                     **value**=（請參考Github中的prompt.txt文件）
 3. 設定OpenAI API KEY
     在main.py中搜尋「openai.api_key」，並將您先前複製的金鑰assign給該變數中(即把sk-xxxx..換掉) 
 ### 專案執行
