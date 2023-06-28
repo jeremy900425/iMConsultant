@@ -14,16 +14,16 @@
 - 藥物查詢：輸入藥物學名（英文尤佳），即可知道藥物的「藥物名稱」「適應症」「用途」「劑量」「副作用」「外觀」
 
 ## LineBot註冊並創建
-1. Google搜尋`Line developers` &rarr; Start Console &rarr; 使用Line帳號登入 &rarr; 點擊Providers旁邊的Create &rarr; 輸入Provider name(類似一個專案名稱而不是LineBot的名字) &rarr; ==Create a Messaging API channel==
+1. Google搜尋`Line developers` &rarr; Start Console &rarr; 使用Line帳號登入 &rarr; 點擊Providers旁邊的Create &rarr; 輸入Provider name(類似一個專案名稱而不是LineBot的名字) &rarr; `Create a Messaging API channel`
 2. Channel開頭的欄位都是LineBot的資料
     - Channel icon：LineBot的大頭照
     - Channel name：LineBot顯示的名稱
     - Channel description：LineBot用途描述
-3. 剩下必填的請按照需求填寫，==URL的可以不必理會==，完成後點擊Create，會進入`LineBot設定頁面`
+3. 剩下必填的請按照需求填寫，URL的可以不必理會，完成後點擊Create，會進入`LineBot設定頁面`
 
 ## LineBot設定頁面需要操作的事情以及功能介紹
-- Basic settings：預覽Icon,查看==Channel secret(請複製起來,稍晚會用到)== 
-- Messaging API：加入好友的QR code,Webhook URL,LINE Official Account features有`Edit`可以跳轉到LineBot後台設定（可設定加入好友之類的預設訊息）,==issue一串Channel access token(請複製起來,稍晚會用到)==
+- Basic settings：預覽Icon,查看`Channel secret(請複製起來,稍晚會用到)`
+- Messaging API：加入好友的QR code,Webhook URL,LINE Official Account features有`Edit`可以跳轉到LineBot後台設定（可設定加入好友之類的預設訊息）,`issue一串Channel access token(請複製起來,稍晚會用到)`
 - Roles：授權LineBot操作設定,透過Email新增管理員
 
 
